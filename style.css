@@ -1,0 +1,35 @@
+/*
+	Syntax for CSS
+		selector {
+			property:value
+		}
+*/
+
+/*Universal Selector*/
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+/*Type Selector*/
+h1, p {
+	font-family: 'Montserrat', sans-serif;
+}
+/*ID selector*/
+#profile {
+	height: 250px;
+	width: 250px;
+}
+
+body {
+	background-image: url("https://r4.wallpaperflare.com/wallpaper/962/403/799/digital-art-adventure-time-wallpaper-6fb582accee6bccb75ac7842a11114e4.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+#landing {
+	height: 80vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
